@@ -18,7 +18,7 @@ int main(){
 
     cont = 0;
     for(j=0; j<strlen(palavra); j++){
-      
+      //fazendo conversão para caracteres em letra minúscula
       palavra[j] = tolower(palavra[j]);
 
       if(palavra[j] == 'a' || palavra[j] == 'e' || palavra[j] == 'i' || palavra[j] == 'o' || palavra[j] == 'u'){
